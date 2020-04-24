@@ -2,15 +2,15 @@
 Aplikasi Pengaduan Online Masyarakat
 
 masyarakat
-user: asep
+user: asep\n
 pass: asep
 
 petugas
-user: mehmed
+user: mehmed\n
 pass: mehmed
 
 admin
-user: tgs
+user: tgs\n
 pass: tgs
 
 note: 
