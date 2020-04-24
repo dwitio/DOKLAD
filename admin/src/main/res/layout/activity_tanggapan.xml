@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tanggapan.TanggapanActivity"
+    android:orientation="vertical"
+    android:padding="14dp">
+    <EditText
+        android:id="@+id/edit_tanggapan"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:gravity="start"
+        android:hint="@string/tulis_tanggapan"
+        android:background="@drawable/custom_edittext"
+        android:textColor="@color/colorPrimary"
+        android:inputType="textCapSentences|textMultiLine"
+        android:textColorHint="@color/colorHint"/>
+    <Button
+        android:id="@+id/btn_simpan"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="@string/simpan"
+        android:background="@drawable/custom_button"
+        android:layout_marginTop="8dp"
+        android:textColor="#FFFFFF"/>
+</LinearLayout>

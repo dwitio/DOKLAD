@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".masyarakat.ProfilActivity"
+    android:orientation="vertical"
+    android:padding="14dp">
+    <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:ignore="UselessParent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NIK :"
+            android:textColor="@color/colorBlack"/>
+        <TextView
+            android:id="@+id/txt_nik"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:padding="8dp"
+            tools:text="3272071308010001"
+            android:background="@drawable/custom_edittext"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorHint"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama :"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/colorBlack"/>
+        <EditText
+            android:id="@+id/edit_nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:padding="8dp"
+            tools:text="Lorem ipsum dodol si amat"
+            android:background="@drawable/custom_edittext"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorHint"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nomor telepon :"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/colorBlack"/>
+        <EditText
+            android:id="@+id/edit_nomor_telepon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:padding="8dp"
+            tools:text="Lorem ipsum dodol si amat"
+            android:background="@drawable/custom_edittext"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorHint"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Username :"
+            android:textColor="@color/colorBlack"/>
+        <EditText
+            android:id="@+id/edit_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:padding="8dp"
+            tools:text="Lorem ipsum"
+            android:background="@drawable/custom_edittext"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorHint"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Password baru :"
+            android:textColor="@color/colorBlack"/>
+        <EditText
+            android:id="@+id/edit_pass_new"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:padding="8dp"
+            android:hint="@string/masukkan_password"
+            android:background="@drawable/custom_edittext"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorHint"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Konfirmasi password baru :"
+            android:textColor="@color/colorBlack"/>
+        <EditText
+            android:id="@+id/edit_pass_confirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:padding="8dp"
+            android:hint="@string/masukkan_konfirmasi_password"
+            android:background="@drawable/custom_edittext"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorHint"/>
+        <Button
+            android:id="@+id/btn_simpan"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/simpan"
+            android:background="@drawable/custom_button"
+            android:textColor="#FFFFFF"/>
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

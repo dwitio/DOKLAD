@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">DOKLAD! Admin</string>
+    <string name="admin">Admin</string>
+    <string name="beri_tanggapan">BERI TANGGAPAN</string>
+    <string name="kelola_akun">KELOLA AKUN</string>
+    <string name="belum_ada_laporan">Belum ada laporan.</string>
+    <string name="level">Level :</string>
+    <string name="nama_pelapor">Nama pelapor :</string>
+    <string name="proses_laporan">Proses laporan</string>
+    <string name="tulis_tanggapan">Tulis tanggapan...</string>
+</resources>

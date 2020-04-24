@@ -1,0 +1,3 @@
+rootProject.name='Pengaduan'
+include ':masyarakat', 'admin'
+include ':common'

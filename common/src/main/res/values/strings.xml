@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="layanan_aspirasi_dan_pengaduan_nonline_rakyat">Layanan Aspirasi dan Pengaduan\nOnline Rakyat</string>
+    <string name="belum_memiliki_akun">Belum memiliki akun?</string>
+    <string name="masuk">Masuk</string>
+    <string name="lapor">LAPOR</string>
+    <string name="tanggapan">TANGGAPAN</string>
+    <string name="kirim">Kirim</string>
+    <string name="tambah_foto">Tambah Foto</string>
+    <string name="nik">NIK</string>
+    <string name="nama">Nama</string>
+    <string name="nomor_telepon">Nomor telepon</string>
+    <string name="daftar">Daftar</string>
+    <string name="judul_laporan">Judul laporan</string>
+    <string name="deskripsi_laporan">Deskripsi laporan</string>
+    <string name="simpan">SIMPAN</string>
+    <string name="logout">LOGOUT</string>
+    <string name="doklad">DOKLAD!</string>
+    <string name="akun">KELOLA AKUN</string>
+    <string name="admin">Admin</string>
+    <string name="petugas">Petugas</string>
+    <string name="masukkan_konfirmasi_password">Masukkan konfirmasi password</string>
+    <string name="konfirmasi_password">Konfirmasi password :</string>
+    <string name="masukkan_password">Masukkan password</string>
+    <string name="passwordkoma">Password :</string>
+    <string name="konfirmasi_passwordkoma">Konfirmasi password :</string>
+    <string name="usernamekoma">Username :</string>
+    <string name="masukkan_username">Masukkan username</string>
+    <string name="nomor_teleponkoma">Nomor telepon :</string>
+    <string name="masukkan_nomor_telepon">Masukkan nomor telepon</string>
+    <string name="masukkan_nama">Masukkan nama</string>
+    <string name="namakoma">Nama :</string>
+    <string name="tanggal_laporan">Tanggal laporan :</string>
+    <string name="judul_laporankoma">Judul Laporan :</string>
+    <string name="isi_laporan">Isi laporan :</string>
+    <string name="status">Status :</string>
+    <string name="tanggapankoma">Tanggapan :</string>
+</resources>
