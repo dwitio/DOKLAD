@@ -2,16 +2,16 @@
 Aplikasi Pengaduan Online Masyarakat
 
 masyarakat
-user: asep\n
-pass: asep
+- Username: asep
+- Password: asep
 
 petugas
-user: mehmed\n
-pass: mehmed
+- Username: mehmed
+- Password: mehmed
 
 admin
-user: tgs\n
-pass: tgs
+- Username: tgs
+- Password: tgs
 
 note: 
 - lakukan configurasi ip pada db_pengaduan ->  pengaduan -> foto (agar fotonya tampil)
